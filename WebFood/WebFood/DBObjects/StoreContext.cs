@@ -11,6 +11,6 @@ namespace WebFood.DBObjects
     {
         public StoreContext():base("name=StoreContext") { }
         public virtual DbSet<Store> Stores { get; set; }
-        public virtual DbSet<Menu> Menus { get; set; }
+        public virtual DbSet<Menu> Menus { get; set; }////
     }
 }
